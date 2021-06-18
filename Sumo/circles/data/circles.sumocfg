@@ -1,0 +1,12 @@
+<configuration>
+    <input>
+       <net-file value="circles.net.xml" />
+       <route-files value="circles.rou.xml" />
+       <additional-files value="circles.add.xml" />
+    </input>
+	<report>
+        <xml-validation value="never"/>
+        <xml-validation.net value="never"/>
+        <no-step-log value="true"/>
+    </report>
+</configuration>

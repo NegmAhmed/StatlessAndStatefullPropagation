@@ -1,0 +1,164 @@
+Parsing types from 'E:\Sumo\/data/typemap/osmNetconvert.typ.xml'... done.
+Parsing nodes from osm-file 'map.osm'... 
+Found duplicate nodes. Substituting 768591708 with 768590251
+Found duplicate nodes. Substituting 5435526872 with 5435526862
+Found duplicate nodes. Substituting 5552022348 with 5552022347
+Found duplicate nodes. Substituting 5552022368 with 5552022367
+Found duplicate nodes. Substituting 5642411211 with 3308333295
+done.
+Parsing edges from osm-file 'map.osm'... done.
+Removing duplicate edges... done.
+Warning: Discarding unusable type 'railway.disused' (first occurence for edge '26026549').
+Warning: Discarding unusable type 'waterway.canal' (first occurence for edge '28970928').
+Warning: Discarding unusable type 'highway.road' (first occurence for edge '48925749').
+Warning: Discarding unusable type 'route.ferry' (first occurence for edge '52480094').
+Warning: Discarding unusable type 'waterway.river' (first occurence for edge '182455026').
+Warning: Discarding unusable type 'railway.station' (first occurence for edge '284824261#0').
+Warning: Discarding unusable type 'railway.platform' (first occurence for edge '372369473#0').
+Parsing relations from osm-file 'map.osm'... 
+Warning: Ignoring restriction relation '5378277' with unknown to-way.
+Warning: from-edge of restriction relation could not be determined
+Warning: Ignoring restriction relation '5378279'.
+Warning: No way found for reference '49678878' in relation '5929917'
+Warning: No way found for reference '395103215' in relation '5929917'
+Warning: Ignoring restriction relation '5929917' with unknown from-way.
+Warning: Ignoring restriction relation '5929917' with unknown to-way.
+done.
+ Import done:
+   5849 nodes loaded.
+   33 types loaded.
+   13584 edges loaded.
+Proj projection parameters used: '+proj=utm +zone=36 +ellps=WGS84 +datum=WGS84 +units=m +no_defs'.
+Removing self-loops... done (1ms).
+Removing empty nodes... done (21ms).
+   28 nodes removed.
+Moving network to origin... done (16ms).
+Computing turning directions... 
+Warning: Ambiguity in turnarounds computation at junction '272196723'.
+Warning: Ambiguity in turnarounds computation at junction '316984337'.
+Warning: Ambiguity in turnarounds computation at junction '3691452247'.
+Warning: Ambiguity in turnarounds computation at junction '3914974681'.
+Warning: Ambiguity in turnarounds computation at junction '394489211'.
+Warning: Ambiguity in turnarounds computation at junction '394489212'.
+Warning: Ambiguity in turnarounds computation at junction '394489213'.
+Warning: Ambiguity in turnarounds computation at junction '5200422222'.
+Warning: Ambiguity in turnarounds computation at junction '5200422225'.
+done (19ms).
+Warning: Found sharp turn with radius 5.31 at the start of edge '-151537811'.
+Warning: Found angle of 106.91 degrees at edge '-174546664#2', segment 1
+Warning: Found sharp turn with radius 7.59 at the start of edge '-199231021#0'.
+Warning: Found sharp turn with radius 3.67 at the start of edge '-201188352#0'.
+Warning: Found sharp turn with radius 3.51 at the end of edge '-201188352#0'.
+Warning: Found sharp turn with radius 4.25 at the start of edge '-201188352#1'.
+Warning: Found sharp turn with radius 3.51 at the end of edge '-201188352#1'.
+Warning: Found sharp turn with radius 3.63 at the start of edge '-201188352#2'.
+Warning: Found sharp turn with radius 2.95 at the end of edge '-201188352#2'.
+Warning: Found sharp turn with radius 3.21 at the start of edge '-201188352#3'.
+Warning: Found sharp turn with radius 3.56 at the end of edge '-201188352#3'.
+Warning: Found sharp turn with radius 5.74 at the end of edge '-245090716'.
+Warning: Found sharp turn with radius 6.80 at the end of edge '-245090718'.
+Warning: Found sharp turn with radius 8.13 at the start of edge '-255978467#1'.
+Warning: Found angle of 131.85 degrees at edge '-255978471', segment 7
+Warning: Found sharp turn with radius 5.31 at the end of edge '-255978471'.
+Warning: Found sharp turn with radius 7.44 at the start of edge '-255978474#1'.
+Warning: Found sharp turn with radius 8.08 at the start of edge '-256051738#0'.
+Warning: Found sharp turn with radius 4.85 at the end of edge '-28200669#10'.
+Warning: Found angle of 106.98 degrees at edge '-28831930#2', segment 3
+Warning: Found angle of 106.16 degrees at edge '-387430028#0', segment 4
+Warning: Found sharp turn with radius 5.22 at the start of edge '-387430109#0'.
+Warning: Found sharp turn with radius 8.38 at the end of edge '-392810124#4'.
+Warning: Found angle of 141.72 degrees at edge '-52035524#0', segment 0
+Warning: Found sharp turn with radius 6.49 at the start of edge '110654760'.
+Warning: Found sharp turn with radius 6.47 at the end of edge '110654760'.
+Warning: Found sharp turn with radius 7.45 at the start of edge '110654762'.
+Warning: Found sharp turn with radius 5.31 at the end of edge '151537811'.
+Warning: Found angle of 106.91 degrees at edge '174546664#2', segment 0
+Warning: Found angle of 149.83 degrees at edge '174546682#4', segment 4
+Warning: Found angle of 146.36 degrees at edge '174546682#4', segment 5
+Warning: Found sharp turn with radius 8.91 at the end of edge '174640416#0'.
+Warning: Found angle of 124.01 degrees at edge '199151249#1', segment 0
+Warning: Found sharp turn with radius 3.51 at the start of edge '201188352#0'.
+Warning: Found sharp turn with radius 3.67 at the end of edge '201188352#0'.
+Warning: Found sharp turn with radius 3.51 at the start of edge '201188352#1'.
+Warning: Found sharp turn with radius 4.25 at the end of edge '201188352#1'.
+Warning: Found sharp turn with radius 2.95 at the start of edge '201188352#2'.
+Warning: Found sharp turn with radius 3.63 at the end of edge '201188352#2'.
+Warning: Found sharp turn with radius 3.56 at the start of edge '201188352#3'.
+Warning: Found sharp turn with radius 3.21 at the end of edge '201188352#3'.
+Warning: Found sharp turn with radius 7.94 at the start of edge '206654378'.
+Warning: Found sharp turn with radius 5.51 at the end of edge '220792676'.
+Warning: Found angle of 105.56 degrees at edge '228602516#0', segment 5
+Warning: Found sharp turn with radius 7.87 at the end of edge '228602516#0'.
+Warning: Found angle of 117.05 degrees at edge '228602516#1', segment 2
+Warning: Found angle of 142.51 degrees at edge '228602516#1', segment 3
+Warning: Found angle of 107.89 degrees at edge '228602516#1', segment 5
+Warning: Found angle of 109.42 degrees at edge '228602516#1', segment 7
+Warning: Found sharp turn with radius 5.74 at the start of edge '245090716'.
+Warning: Found sharp turn with radius 6.80 at the start of edge '245090718'.
+Warning: Found angle of 164.20 degrees at edge '25007400#22', segment 2
+Warning: Found angle of 165.97 degrees at edge '25007400#22', segment 3
+Warning: Found sharp turn with radius 8.13 at the end of edge '255978467#1'.
+Warning: Found angle of 131.85 degrees at edge '255978471', segment 0
+Warning: Found sharp turn with radius 5.31 at the start of edge '255978471'.
+Warning: Found sharp turn with radius 7.44 at the end of edge '255978474#1'.
+Warning: Found sharp turn with radius 8.08 at the end of edge '256051738#0'.
+Warning: Found sharp turn with radius 3.91 at the end of edge '257752188#0'.
+Warning: Found sharp turn with radius 4.85 at the start of edge '28200669#10'.
+Warning: Found sharp turn with radius 8.91 at the end of edge '284824260'.
+Warning: Found sharp turn with radius 6.10 at the end of edge '284824264'.
+Warning: Found sharp turn with radius 7.10 at the start of edge '284824266#0'.
+Warning: Found sharp turn with radius 2.55 at the start of edge '284824266#1'.
+Warning: Found angle of 106.98 degrees at edge '28831930#2', segment 6
+Warning: Found angle of 109.29 degrees at edge '29560278', segment 0
+Warning: Found sharp turn with radius 1.15 at the start of edge '29836056#4'.
+Warning: Found angle of 109.00 degrees at edge '29836056#4', segment 1
+Warning: Found sharp turn with radius 7.52 at the start of edge '30707549#3'.
+Warning: Found sharp turn with radius 7.91 at the end of edge '324479474'.
+Warning: Found angle of 101.58 degrees at edge '34206046#2', segment 0
+Warning: Found angle of 106.16 degrees at edge '387430028#0', segment 2
+Warning: Found sharp turn with radius 5.22 at the end of edge '387430109#0'.
+Warning: Found sharp turn with radius 8.38 at the start of edge '392810124#4'.
+Warning: Found sharp turn with radius 4.13 at the start of edge '508650900'.
+Warning: Found angle of 141.72 degrees at edge '52035524#0', segment 1
+Warning: Found sharp turn with radius 7.02 at the start of edge '52528127#2'.
+Warning: Found sharp turn with radius 6.86 at the start of edge '556710194#2'.
+Warning: Found angle of 105.11 degrees at edge '97144241#0', segment 0
+Warning: Found angle of 104.73 degrees at edge '97144242#1', segment 5
+Sorting nodes' edges... done (29ms).
+Computing node shapes... 
+Warning: Shape for junction '1852182437' has distance 24.55 to its given position
+Warning: Shape for junction '1852186954' has distance 21.30 to its given position
+Warning: Shape for junction '1852191982' has distance 26.46 to its given position
+Warning: Shape for junction '2619886507' has distance 22.21 to its given position
+Warning: Shape for junction '272197918' has distance 34.45 to its given position
+Warning: Shape for junction '4950527632' has distance 33.52 to its given position
+done (808ms).
+Computing edge shapes... done (323ms).
+Computing node types... done (16ms).
+Computing priorities... done (60ms).
+Computing approached edges... done (84ms).
+Computing approaching lanes... done (319ms).
+Dividing of lanes on approached lanes... done (150ms).
+Processing turnarounds... done (12ms).
+Rechecking of lane endings... done (21ms).
+Assigning nodes to traffic lights... done (0ms).
+Computing traffic light control information... 
+Warning: The rail crossing '1640257714' does not have any roads.
+done (5ms).
+Computing node logics... done (408ms).
+Computing traffic light logics... done (0ms).
+ 2 traffic light(s) computed.
+Building inner edges... done (1052ms).
+-----------------------------------------------------
+Summary:
+ Node type statistics:
+  Unregulated junctions       : 0
+  Dead-end junctions          : 420
+  Priority junctions          : 5260
+  Right-before-left junctions : 141
+ Network boundaries:
+  Original boundary  : 30.73,29.77,31.42,30.71
+  Applied offset     : -282188.42,-3321348.76
+  Converted boundary : 0.00,0.00,65555.44,78618.55
+-----------------------------------------------------
+Writing network... done (13539ms).
